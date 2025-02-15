@@ -1,0 +1,335 @@
+/* ---------------------------------------------------------
+   Color Variables
+--------------------------------------------------------- */
+:root {
+    --primary-color: #6633cc;
+    --secondary-color: #9966ff;
+    --accent-color: #ff416c;
+    --dark-color: #333;
+    --light-color: #f8f9fa;
+
+    /* Custom colors for the letters (from your sample image) */
+    --omega-o-color: #EB7975;
+    /* Red for O */
+    --omega-m-color: #009AAD;
+    /* Teal for M */
+    --omega-g-color: #4B8E55;
+    /* Green for G */
+    --omega-a-color: #0057D8;
+    /* Blue for A */
+
+    /* For the even/odd publications background */
+    --pub-odd-bg: #b6ebf5;
+    /* light pink-lavender */
+    --pub-even-bg: #f0f8ff;
+    /* light azure */
+}
+
+/* ---------------------------------------------------------
+     Global Styles
+  --------------------------------------------------------- */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--light-color);
+    color: var(--dark-color);
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* ---------------------------------------------------------
+     Navbar Customization
+     Larger, new gradient
+  --------------------------------------------------------- */
+.navbar-custom {
+    background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+    font-family: 'VT323', monospace;
+    font-size: 2rem;
+    /* bigger font size */
+    padding: 1rem 0;
+    /* increase top/bottom padding for a bigger look */
+}
+
+.omega_style{
+    font-size: 2rem;
+}
+
+.navbar-brand,
+.nav-link {
+    transition: color 0.3s ease;
+}
+
+.navbar-brand:hover,
+.nav-link:hover {
+    color: var(--accent-color);
+}
+
+/* 
+     O with Omega symbol inside (for the navbar brand).
+     The main "O" is placed, and the ::after pseudo-element
+     positions the "Ω" symbol in the center of that "O".
+  */
+.o-omega {
+    position: relative;
+    display: inline-block;
+    color: var(--omega-o-color);
+    margin-right: 4px;
+    font-size: 1em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.show_news{
+    /*make the design rounded and more beautiful and change the background color */
+    border-radius: 10px;
+    border: 0px solid #333;
+    padding: 5px 10px;
+    font-size: 2rem;    
+}
+
+#show-less{
+    background-color: #f8f9fa;
+    color: #8f8c8c;  
+}
+#show-more{
+    background-color: #f8f9fa;
+    color: #4aaa23;  
+}
+
+.remove_margin{
+    margin: 0px !important;
+}
+
+.o-omega::after {
+    content: "Ω";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -52%);
+    font-size: 0.5em;
+    color: var(--omega-o-color);
+}
+
+/* 
+     A second style for the hero text
+     (slightly bigger).
+  */
+.o-omega-2 {
+    position: relative;
+    display: inline-block;
+    color: var(--omega-o-color);
+    font-weight: bold;
+    margin-right: 2px;
+}
+
+.o-omega-2::after {
+    content: "Ω";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -52%);
+    font-size: 0.6em;
+    color: var(--omega-o-color);
+}
+
+/* ---------------------------------------------------------
+     Hero Section
+     - Remove background image, use gradient
+     - Make text bigger for color-coded line
+  --------------------------------------------------------- */
+.hero {
+    position: relative;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #4b79a1, #283e51);
+    /* You can change these */
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.hero .container {
+    z-index: 2;
+}
+
+.hero-title {
+    font-family: 'VT323', monospace;
+    font-size: 5rem;
+    /* bigger */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero-subtitle {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+/* ---------------------------------------------------------
+     Section Title
+     More "beautiful and professional"
+  --------------------------------------------------------- */
+.section-title {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2.75rem;
+    /* bigger */
+    position: relative;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.section-title::after {
+    content: "";
+    width: 120px;
+    /* wider line */
+    height: 5px;
+    /* thicker line */
+    background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
+    display: block;
+    margin: 0.5rem auto 0;
+    border-radius: 2px;
+}
+
+/* ---------------------------------------------------------
+     Card Styles
+     - Rounding corners, hover effect
+  --------------------------------------------------------- */
+.card {
+    border: none;
+    border-radius: 12px;
+    /* bigger rounding */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+.shadow-sm {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.hover-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    background-color: var(--pub-odd-bg);
+}
+
+.min-height{
+    min-height: 270px;
+}
+
+/* ---------------------------------------------------------
+     Member Card Image
+  --------------------------------------------------------- */
+.member-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
+    border: 3px solid var(--primary-color);
+    border-radius: 50%;
+}
+
+/* ---------------------------------------------------------
+     News Section
+     - date: text
+  --------------------------------------------------------- */
+.news-item {
+    border-bottom: 1px solid #ddd;
+    padding: 1rem 0;
+}
+
+.news-item .d-flex {
+    justify-content: flex-start !important;
+}
+
+.news-item .d-flex span {
+    font-size: 1.1rem;
+    margin-right: 1rem;
+}
+
+.news-item .d-flex span strong {
+    margin-right: 0.25rem;
+}
+
+/* ---------------------------------------------------------
+     Projects Section
+     - Same hover effect for project-card
+  --------------------------------------------------------- */
+.project-card {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* ---------------------------------------------------------
+     Publications Section (MLA style, even/odd coloring + hover)
+  --------------------------------------------------------- */
+.publication-section {
+    margin-bottom: 2rem;
+}
+
+.publication-section h4 {
+    margin-bottom: 1rem;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2rem;
+    color: var(--primary-color);
+    text-align: center;
+}
+
+.publication-item {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: flex-start;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.publication-item:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* Publication numbering */
+.publication-item .pub-number {
+    font-weight: bold;
+    margin-right: 0.5rem;
+    color: var(--accent-color);
+}
+
+/* Even/odd backgrounds */
+.publication-item:nth-child(odd) {
+    background-color: var(--pub-odd-bg);
+}
+
+.publication-item:nth-child(even) {
+    background-color: var(--pub-even-bg);
+}
+
+.mla-citation {
+    font-family: 'Georgia', serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: var(--dark-color);
+    margin: 0;
+}
+
+.mla-citation a {
+    color: var(--accent-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.mla-citation a:hover {
+    text-decoration: underline;
+}

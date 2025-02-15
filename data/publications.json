@@ -1,0 +1,28 @@
+[
+    {
+      "category": "Articles in International Journals",
+      "authors": "A. Oulamara, I. Zaidi, M. Basset and L. Idoumghar",
+      "paperTitle": "Minimizing grid capacity in preemptive electric vehicle charging orchestration: complexity, exact and heuristic approaches",
+      "journal": "European Journal of Operational Research, 312(1):22-37",
+      "year": "2024",
+      "link": "https://doi.org/10.1016/j.ejor.2023.05.039"
+    },
+    {
+      "category": "Articles in International Journals",
+      "authors": " M. Golabi, S.M. Shavarani, L. Idoumghar",
+      "paperTitle": "A congested capacitated location problem  with continuous network demand",
+      "journal": "RAIRO - Operations Research, 56, pp. 3561–3579 Neural Computing and Applications, Springer",
+      "year": "2022",
+      "link": "https://doi.org/10.1051/ro/2022167"
+    },
+    {
+        "category": "Articles in International Journals",
+        "authors": " H. Harb, Gh. Saad, A. Abouaissa, N. Charara, L. Idoumghar",
+        "paperTitle": "A Sensing-Based Patient Classification Framework for Efficient Patient-Nurse Scheduling",
+        "journal": "Journal of Sustainable Computing: Informatics and Systems",
+        "year": "2023",
+        "link": "https://doi.org/10.1016/j.suscom.2023.100855"
+      }
+    
+  ]
+  

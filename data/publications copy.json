@@ -1,0 +1,125 @@
+[
+    {
+      "category": "Articles in International Journals",
+      "authors": "A. Oulamara, I. Zaidi, M. Basset and L. Idoumghar",
+      "paperTitle": "Minimizing grid capacity in preemptive electric vehicle charging orchestration: complexity, exact and heuristic approaches",
+      "journal": "European Journal of Operational Research, 312(1):22-37",
+      "year": "2024",
+      "link": "https://doi.org/10.1016/j.ejor.2023.05.039"
+    },
+    {
+      "category": "Articles in International Journals",
+      "authors": " M. Golabi, S.M. Shavarani, L. Idoumghar",
+      "paperTitle": "A congested capacitated location problem  with continuous network demand",
+      "journal": "RAIRO - Operations Research, 56, pp. 3561–3579 Neural Computing and Applications, Springer(IF: 2.526,  Q2)",
+      "year": "2022",
+      "link": "https://doi.org/10.1051/ro/2022167"
+    }
+    /*
+    {
+      "category": "Articles in International Journals",
+      "authors": "Alice Smith",
+      "paperTitle": "A Comprehensive Study on Computer Vision",
+      "journal": "IEEE Transactions on Image Processing",
+      "year": "2025",
+      "link": "http://example.com/computer-vision-study"
+    },
+    {
+      "category": "Communications in International Conferences",
+      "authors": "Alice Smith",
+      "paperTitle": "Emerging Trends in AI",
+      "journal": "Proceedings of the International AI Conference",
+      "year": "2023",
+      "link": "http://example.com/ai-trends"
+    },
+    {
+      "category": "Communications in International Conferences",
+      "authors": "Bob Johnson, Carol Williams",
+      "paperTitle": "Innovative Methods in Data Analysis",
+      "journal": "International Data Conference Proceedings",
+      "year": "2024",
+      "link": "http://example.com/data-analysis"
+    },
+    {
+      "category": "Communications in International Conferences",
+      "authors": "Alice Smith, Carol Williams",
+      "paperTitle": "Robust Machine Learning Techniques",
+      "journal": "International Machine Learning Conference",
+      "year": "2024",
+      "link": "http://example.com/ml-techniques"
+    },
+    {
+      "category": "Communications in International Workshops",
+      "authors": "Bob Johnson",
+      "paperTitle": "Workshop on Big Data Analytics",
+      "journal": "Workshop Proceedings",
+      "year": "2024",
+      "link": "http://example.com/big-data"
+    },
+    {
+      "category": "Communications in International Workshops",
+      "authors": "Carol Williams, Alice Smith",
+      "paperTitle": "Emerging Tools for Data Visualization",
+      "journal": "International Workshop on Data Science",
+      "year": "2023",
+      "link": "http://example.com/data-visualization"
+    },
+    {
+      "category": "Communications in International Workshops",
+      "authors": "Bob Johnson, Alice Smith",
+      "paperTitle": "Integrating AI in Healthcare Systems",
+      "journal": "Healthcare AI Workshop",
+      "year": "2025",
+      "link": "http://example.com/ai-healthcare"
+    },
+    {
+      "category": "Articles in National Journals",
+      "authors": "Alice Smith",
+      "paperTitle": "Machine Learning in National Context",
+      "journal": "National Journal of Computing",
+      "year": "2024",
+      "link": "http://example.com/national-ml"
+    },
+    {
+      "category": "Articles in National Journals",
+      "authors": "Bob Johnson",
+      "paperTitle": "The Role of Technology in National Development",
+      "journal": "Journal of National Technology",
+      "year": "2023",
+      "link": "http://example.com/national-development"
+    },
+    {
+      "category": "Articles in National Journals",
+      "authors": "Carol Williams",
+      "paperTitle": "Digital Transformation in Public Sector",
+      "journal": "National Journal of Digital Innovation",
+      "year": "2025",
+      "link": "http://example.com/digital-transformation"
+    },
+    {
+      "category": "Communications in National Conferences and Workshops",
+      "authors": "Bob Johnson",
+      "paperTitle": "Local Innovations in Technology",
+      "journal": "National Tech Conference",
+      "year": "2023",
+      "link": "http://example.com/local-innovations"
+    },
+    {
+      "category": "Communications in National Conferences and Workshops",
+      "authors": "Alice Smith, Bob Johnson",
+      "paperTitle": "Trends in National IT Developments",
+      "journal": "National IT Symposium",
+      "year": "2024",
+      "link": "http://example.com/national-it"
+    },
+    {
+      "category": "Communications in National Conferences and Workshops",
+      "authors": "Carol Williams",
+      "paperTitle": "Innovative Practices in National Engineering",
+      "journal": "National Engineering Conference",
+      "year": "2025",
+      "link": "http://example.com/national-engineering"
+    }
+      */
+  ]
+  
