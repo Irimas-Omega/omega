@@ -1,19 +1,19 @@
 [
     {
-      "category": "Articles in International Journals",
-      "authors": "A. Oulamara, I. Zaidi, M. Basset and L. Idoumghar",
-      "paperTitle": "Minimizing grid capacity in preemptive electric vehicle charging orchestration: complexity, exact and heuristic approaches",
-      "journal": "European Journal of Operational Research, 312(1):22-37",
-      "year": "2024",
-      "link": "https://doi.org/10.1016/j.ejor.2023.05.039"
+        "category": "Articles in International Journals",
+        "authors": "A. Oulamara, I. Zaidi, M. Basset and L. Idoumghar",
+        "paperTitle": "Minimizing grid capacity in preemptive electric vehicle charging orchestration: complexity, exact and heuristic approaches",
+        "journal": "European Journal of Operational Research, 312(1):22-37",
+        "year": "2024",
+        "link": "https://doi.org/10.1016/j.ejor.2023.05.039"
     },
     {
-      "category": "Articles in International Journals",
-      "authors": " M. Golabi, S.M. Shavarani, L. Idoumghar",
-      "paperTitle": "A congested capacitated location problem  with continuous network demand",
-      "journal": "RAIRO - Operations Research, 56, pp. 3561–3579 Neural Computing and Applications, Springer",
-      "year": "2022",
-      "link": "https://doi.org/10.1051/ro/2022167"
+        "category": "Articles in International Journals",
+        "authors": " M. Golabi, S.M. Shavarani, L. Idoumghar",
+        "paperTitle": "A congested capacitated location problem  with continuous network demand",
+        "journal": "RAIRO - Operations Research, 56, pp. 3561–3579 Neural Computing and Applications, Springer",
+        "year": "2022",
+        "link": "https://doi.org/10.1051/ro/2022167"
     },
     {
         "category": "Articles in International Journals",
@@ -22,7 +22,132 @@
         "journal": "Journal of Sustainable Computing: Informatics and Systems",
         "year": "2023",
         "link": "https://doi.org/10.1016/j.suscom.2023.100855"
-      }
+    },
+    {
+        "category": "Articles in International Journals",
+        "authors": "K. Talaei, A. Rahati, L. Idoumghar",
+        "paperTitle": "HSGS: a hybrid of harmony search algorithm and golden section for data clustering",
+        "journal": "Journal of Expert Systems with Applications (ESWA), Vol. 224, 119954",
+        "year": "2023",
+        "link": "https://doi.org/10.1016/j.eswa.2023.119954"
+    },
+    {
+        "category": "Articles in International Journals",
+        "authors": "K. Belhadj, A. Helalib, N. Ben Guedriab,O. A. Harzallahf, L. Idoumghar and Ch. Bouraouia",
+        "paperTitle": "Damage assessment in plate structures using an Enhanced Jaya algorithm",
+        "journal": " Journal of Engineering Optimization",
+        "year": "2024",
+        "link": "https://doi.org/10.1080/0305215X.2024.2304131"
+    },
+    {
+        "category": "Articles in International Journals",
+        "authors": "M. Sulaman, M. Golabi, M. Essaid, J. Lepagnot, M. Brévilliers, L. Idoumghar",
+        "paperTitle": " Surrogate-assisted metaheuristics for the facility location problem with distributed demands on network edges",
+        "journal": "Computers & Industrial Engineering Journal, Vol. 188",
+        "year": "2024",
+        "link": "https://doi.org/10.1016/j.cie.2024.109931"
+    },
+    {
+        "category": "Articles in International Journals",
+        "authors": "CH. Benhabiles, K. Hammoudi, A. Cabani, F. Windal, M. Melkemi et al.",
+        "paperTitle": "Surface-based protein domains retrieval methods from a SHREC2021 challenge",
+        "journal": "Journal of Molecular Graphics and Modelling, Elsevier",
+        "year": "2022",
+        "link": "https://doi.org/10.1016/j.jmgm.2021.108103"
+    },
+    {
+        "category": "Articles in International Journals",
+        "authors": "Z. Yang, H. Benhabiles, K. Hammoudi, F. Windal, R. He, D. Collard.",
+        "paperTitle": "A generalized deep learning-based framework for assistance to the human malaria diagnosis from microscopic images.",
+        "journal": "Neural Computing and Applications, Springer",
+        "year": "2021",
+        "link": "https://doi.org/10.1007/s00521-021-06604-4"
+    },
+    {
+        "category": "Articles in International Journals",
+        "authors": "K. Hammoudi, H. Benhabiles, M. Melkemi, F. Dornaika, I. Arganda-Carreras, D. Collard, Arnaud Scherpereel.",
+        "paperTitle": "Deep Learning on Chest X-ray Images to Detect and Evaluate Pneumonia Cases at the Era of COVID-19.",
+        "journal": "Journal of Medical Systems, Springer",
+        "year": "2021",
+        "link": "https://doi.org/10.1007/s10916-021-01745-4"
+    },
+    {
+        "category": "Articles in International Journals",
+        "authors": "M. Melkemi and K. Hammoudi.",
+        "paperTitle": "Voronoi-based image representation applied to binary visual cryptography.",
+        "journal": "Signal Processing: Image Communication, Elsevier",
+        "year": "2020",
+        "link": "https://doi.org/10.1016/j.image.2020.115913"
+    },
+    {
+        "category": "Articles in International Journals",
+        "authors": "A. Cabani, K. Hammoudi, H. Benhabiles, M. Melkemi",
+        "paperTitle": "MaskedFace-Net - A Dataset of Correctly/Incorrectly Masked Face Images in the Context of COVID-19.",
+        "journal": "Smart Health, Elsevier",
+        "year": "2020",
+        "link": "https://doi.org/10.1016/j.smhl.2020.100144"
+    },
+    {
+        "category": "Articles in International Journals",
+        "authors": "H. Benhabiles, K. Hammoudi, A. Cabani, F. Windal, M. Melkemi et al.",
+        "paperTitle": "OSHREC2020 track: Multi-domain Protein Shape Retrieval Challenge",
+        "journal": "Computers & Graphics, Elsevier",
+        "year": "2020",
+        "link": "https://doi.org/10.1016/j.cag.2020.07.013"
+    },
+
+
+
+
+
+
+
+
+
+
+
     
-  ]
-  
+    {
+        "category": "Communications in International Conferences and Workshops",
+        "authors": "M. Bendali-Braham, G. Forestier, J. Weber, L. Idoumghar, P.A. Muller",
+        "paperTitle": "Ensemble classification of video-recorded crowd movements",
+        "conference": "12th International Symposium on Image and Signal Processing (ISPA2021)",
+        "year": "2021"
+    },
+    {
+        "category": "Communications in International Conferences and Workshops",
+        "authors": "N. Kassabian, Z. Hammoudan, O. Grunder, L. Idoumghar",
+        "paperTitle": "Optimization by Simulating Annealing for Solving the Hazardous Container Stacking Problem in Tripoli-Lebanon seaport",
+        "conference": "7th International Conference on Engineering and Emerging Technologies",
+        "year": "2021"
+    },
+    {
+        "category": "Communications in International Conferences and Workshops",
+        "authors": "Kh. Zaimen, M.A Brahmia, J.F Dollinger, L. Moalic, A. Abouaissa and L. Idoumghar",
+        "paperTitle": "Coverage Maximization in WSN Deployment using Particle Swarm Optimization with Voronoi Diagram",
+        "conference": "Symposium on Intelligent and Autonomous Systems, Tallinn, Estonia",
+        "year": "2021"
+    },
+    {
+        "category": "Communications in International Conferences and Workshops",
+        "authors": "I. Zaidi, A. Oulamara, M. Basset and L. Idoumghar",
+        "paperTitle": "Hybrid Heuristic and Metaheuristic for Solving Electric Vehicle Charging Scheduling Problem",
+        "conference": "The 21st European Conference on Evolutionary Computation in Combinatorial Optimisation",
+        "year": "2021"
+    },
+    {
+        "category": "Communications in International Conferences and Workshops",
+        "authors": "H. Rakhshani, H. Ismail-Fawaz, L. Idoumghar, G. Forestier, J. Lepagnot, J. Weber, M. Brevilliers and P.A. Muller",
+        "paperTitle": "Neural Architecture Search for Time Series Classification",
+        "conference": "The International Joint Conference on Neural Networks (IJCNN)",
+        "year": "2020"
+    },
+    {
+        "category": "Communications in International Conferences and Workshops",
+        "authors": "K. Zaimen, M.-E.-A. Brahmia, J.-F. Dollinger, L. Moalic, A. Abouaissa and L. Idoumghar",
+        "paperTitle": "A Overview on WSN Deployment and a Novel Conceptual BIM-based Approach in Smart Buildings",
+        "conference": "7th International Conference on Internet of Things: Systems, Management and Security",
+        "year": "2020"
+    }
+]
+
